@@ -4,10 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google</title>
+    <!-- Fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <!-- Tailwind css cdn -->
     <link
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
   </head>
-  <body class="text-gray-800 text-sm"></body>
+  <body class="text-gray-800 text-sm">
+    <header class="flex justify-between w-full">
+      <div class="flex space-x-4 p-6">
+        <a href="#" class="hover:underline">About</a>
+        <a href="#" class="hover:underline">store</a>
+      </div>
+      <div class="flex">
+        <div class="flex space-x-4 p-6">
+          <a href="#" class="hover:underline">Gmail</a>
+          <a href="#" class="hover:underline">Images</a>
+          <a href="#" class="pl-2">
+            <i class="fas fa-th text-lg"></i>
+          </a>
+        </div>
+        <a href="#" class="pt-4 pr-8">
+          <img src="avatar.png" alt="" class="rounded-full w-8 h-8" />
+        </a>
+      </div>
+    </header>
+  </body>
 </html>
